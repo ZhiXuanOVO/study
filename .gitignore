@@ -1,0 +1,69 @@
+# ==================== 操作系统 ====================
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.tmp
+*.temp
+
+# ==================== 编辑器和 IDE ====================
+.vscode/
+.idea/
+.vs/
+*.swp
+*.swo
+*~
+
+# ==================== Python ====================
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==================== PHP (Composer) ====================
+vendor/
+.phpunit.result.cache
+.phpunit.cache
+
+# ==================== Node.js ====================
+node_modules/
+.npm/
+.pnpm-store/
+dist/
+.next/
+.nuxt/
+.cache/
+coverage/
+
+# ==================== Java ====================
+target/
+*.class
+*.jar
+
+# ==================== 编译产物 ====================
+build/
+out/
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+
+# ==================== 日志和备份 ====================
+*.log
+*.bak
+*.orig
+
+# ==================== 环境变量和密钥 ====================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
